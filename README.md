@@ -1,4 +1,4 @@
-annotations_train.json:.
+annotations_train.json:
 
 ![image](https://user-images.githubusercontent.com/67547213/142844575-bd336aa8-28ae-4d7d-a54b-6f2404e39aea.png)
 
