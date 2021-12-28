@@ -1,3 +1,10 @@
+## What didn't work:
+- Heavy augmentation:
+    - 2 x customed Mosaic data augmentation 
+        - jjfjf
+    - MixUp
+    - 
+## Miscellaneous:
 annotations_train.json:
 
 ![image](https://user-images.githubusercontent.com/67547213/142844575-bd336aa8-28ae-4d7d-a54b-6f2404e39aea.png)
