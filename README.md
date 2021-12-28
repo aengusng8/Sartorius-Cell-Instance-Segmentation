@@ -1,7 +1,8 @@
+## Sartorius Cell Instance Segmentation
 
 ![image](https://user-images.githubusercontent.com/67547213/147556955-26dda52c-e535-4ced-afe6-bf217b7e4d28.png)
 
-## Summary
+### Summary
 - Model 1 (Classifier): EfficientDetV2
 - Model 2 (Instance Segmentation): 
 - Training stage 1:
@@ -9,7 +10,7 @@
 - 5 folds
 
 
-## What didn't work
+### What didn't work
 - Heavy augmentation:
     - 2 x customed Mosaic data augmentation (deleted tiny bouding boxes)
         - RandomRotate + CenterCrop || Transpose (Reflection) + RandomCrop
@@ -18,7 +19,7 @@
     - AdditiveGaussianNoise, GaussNoise, MotionBlur, MedianBlur, Blur, CLAHE, Sharpen, Emboss, RandomBrightnessContrast
 - Ensemble multi-scale model: Weighted-Boxes-Fusion
 - Test time augmentation(HorizontalFlip, VerticalFlip)
-## Miscellaneous:
+### Miscellaneous:
 annotations_train.json:
 
 ![image](https://user-images.githubusercontent.com/67547213/142844575-bd336aa8-28ae-4d7d-a54b-6f2404e39aea.png)
