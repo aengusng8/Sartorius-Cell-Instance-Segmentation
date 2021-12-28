@@ -1,9 +1,23 @@
-## What didn't work:
+
+![image](https://user-images.githubusercontent.com/67547213/147556955-26dda52c-e535-4ced-afe6-bf217b7e4d28.png)
+
+## Summary
+- Model 1 (Classifier): EfficientDetV2
+- Model 2 (Instance Segmentation): 
+- Training stage 1:
+- Training stage 2: 
+- 5 folds
+
+
+## What didn't work
 - Heavy augmentation:
-    - 2 x customed Mosaic data augmentation 
-        - jjfjf
+    - 2 x customed Mosaic data augmentation (deleted tiny bouding boxes)
+        - RandomRotate + CenterCrop || Transpose (Reflection) + RandomCrop
+        - RandomCrop + random x_center and y_center
     - MixUp
-    - 
+    - AdditiveGaussianNoise, GaussNoise, MotionBlur, MedianBlur, Blur, CLAHE, Sharpen, Emboss, RandomBrightnessContrast
+- Ensemble multi-scale model: Weighted-Boxes-Fusion
+- Test time augmentation(HorizontalFlip, VerticalFlip)
 ## Miscellaneous:
 annotations_train.json:
 
