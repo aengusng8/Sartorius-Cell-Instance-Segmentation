@@ -17,8 +17,8 @@
         - RandomCrop + random x_center and y_center
     - MixUp
     - AdditiveGaussianNoise, GaussNoise, MotionBlur, MedianBlur, Blur, CLAHE, Sharpen, Emboss, RandomBrightnessContrast
-- Ensemble multi-scale model: Weighted-Boxes-Fusion
-- Test time augmentation(HorizontalFlip, VerticalFlip)
+- Ensemble multi-scale model: Weighted Boxes Fusion
+- Test time augmentation (HorizontalFlip, VerticalFlip)
 ### Miscellaneous:
 annotations_train.json:
 
