@@ -5,7 +5,7 @@
 ### Summary
 - Model 1 (Classifier): EfficientDetV2
     - train with `train_semi_supervised` and Sartorious dataset
-    - result: 0.0 losses and 100% accuracy on training, validation sets
+    - result: `0.0 losses` and `100% accuracy` on training, validation sets
 - Model 2 (Instance Segmentation): Mask R-CNN (R101-FPN)
     - Training stage 1: train with eight-class LIVECell dataset
     - Training stage 2: train with three-class Sartorious dataset with pretrained weights from stage 1
