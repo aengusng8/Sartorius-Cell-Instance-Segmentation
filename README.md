@@ -11,7 +11,7 @@
     - Training stage 2: train with three-class Sartorious dataset with pretrained weights from stage 1
 - Inference: use EfficientDetV2 classifier to predict class which is used to refine final prediction of Mask R-CNN
 - 5 folds cross-validation
-- Ensembling masks from different models with customd Weighted Boxes Fusion
+- Ensembling masks from different models with customed Weighted Boxes Fusion
 
 ### What didn't work
 - Heavy augmentation:
@@ -20,7 +20,6 @@
         - RandomCrop + random x_center and y_center
     - MixUp
     - AdditiveGaussianNoise, GaussNoise, MotionBlur, MedianBlur, Blur, CLAHE, Sharpen, Emboss, RandomBrightnessContrast
-- Ensemble multi-scale model: Weighted Boxes Fusion
 - Test time augmentation (HorizontalFlip, VerticalFlip)
 - CIoU loss and GIoU loss
 ### Miscellaneous:
