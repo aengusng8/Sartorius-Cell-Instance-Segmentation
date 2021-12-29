@@ -16,7 +16,7 @@
 ### What didn't work
 - Heavy augmentation:
     - 2 x customed Mosaic data augmentation (deleted tiny bouding boxes)
-        - RandomRotate + CenterCrop (w/o artifacts) || Transpose (Reflection) + RandomCrop
+        - RandomRotate + CenterCrop (w/o artifact) || Transpose (Reflection) + RandomCrop
         - RandomCrop + random x_center and y_center
     - MixUp
     - AdditiveGaussianNoise, GaussNoise, MotionBlur, MedianBlur, Blur, CLAHE, Sharpen, Emboss, RandomBrightnessContrast
