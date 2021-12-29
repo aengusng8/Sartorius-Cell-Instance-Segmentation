@@ -22,6 +22,7 @@
     - AdditiveGaussianNoise, GaussNoise, MotionBlur, MedianBlur, Blur, CLAHE, Sharpen, Emboss, RandomBrightnessContrast
 - Ensemble multi-scale model: Weighted Boxes Fusion
 - Test time augmentation (HorizontalFlip, VerticalFlip)
+- CIoU and GIoU loss
 ### Miscellaneous:
 annotations_train.json:
 
