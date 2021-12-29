@@ -1,6 +1,6 @@
 ## Sartorius Cell Instance Segmentation
 
-![image](https://user-images.githubusercontent.com/67547213/147556955-26dda52c-e535-4ced-afe6-bf217b7e4d28.png)
+![image](https://user-images.githubusercontent.com/67547213/147652078-49b475a1-9e7b-4f06-a9eb-9c8bd750abb3.png)
 
 ### Summary
 - Model 1 (Classifier): EfficientDetV2
