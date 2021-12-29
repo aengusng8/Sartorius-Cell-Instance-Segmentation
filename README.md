@@ -9,7 +9,7 @@
 - Model 2 (Instance Segmentation): Mask R-CNN (R101-FPN)
     - Training stage 1: train with eight-class LIVECell dataset
     - Training stage 2: train with three-class Sartorious dataset with pretrained weights from stage 1
-- Inference: use predicted class from model 1
+- Inference: use EfficientDetV2 classifier to predict class which is used to refine final prediction of Mask R-CNN
 - 5 folds
 
 
